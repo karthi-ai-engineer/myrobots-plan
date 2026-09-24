@@ -1,0 +1,21 @@
+#!/bin/sh
+# commit-msg hook: karthi-ai-engineer is the only contributor to this repository.
+# Activate once per clone:  git config core.hooksPath .githooks
+
+expected="296384397+karthi-ai-engineer@users.noreply.github.com"
+
+author_email=$(git var GIT_AUTHOR_IDENT | sed -n 's/.*<\(.*\)>.*/\1/p')
+committer_email=$(git var GIT_COMMITTER_IDENT | sed -n 's/.*<\(.*\)>.*/\1/p')
+
+if [ "$author_email" != "$expected" ] || [ "$committer_email" != "$expected" ]; then
+  echo "ERROR (commit-msg): commits must be authored and committed as karthi-ai-engineer <$expected>." >&2
+  echo "Fix:  git config user.name karthi-ai-engineer && git config user.email $expected" >&2
+  exit 1
+fi
+
+if grep -v '^#' "$1" | grep -qiE '^co-authored-by:|generated with|anthropic|claude code|claude-session'; then
+  echo "ERROR (commit-msg): remove co-author / 'generated with' / assistant attribution lines from the message." >&2
+  exit 1
+fi
+
+exit 0
