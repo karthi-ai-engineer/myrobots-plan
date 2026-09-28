@@ -62,6 +62,7 @@
 | 24 Sep | Pipeline, skeleton, tech stack, AI per block, test & quality (Claude fast mode, accepted) · factory = Claude subscription + VOICEVOX + dataset-label marks (tentative) · OpenAI API for Version O | `decisions/2026-09-24-technical-chapters.md` |
 | 24 Sep | Data plan: data source open (separate process, CEO) · plan is data-agnostic · intake requirements · obstacles · factory · sealing · research pack | `decisions/2026-09-24-data-plan.md` |
 | 24 Sep | Ch. 11 on hold (after discussion) · ch. 12 risks + ch. 13 how we work accepted "for now" · GPU = AWS (vast.ai fallback only) · final consistency review | `decisions/2026-09-24-review-and-remaining.md` |
+| 28 Sep | Block designs agreed: B01 · B02 · AI gateway · B03 (B04 merged) · B05 · B06 · B07 | `decisions/2026-09-28-block-designs-ingest-see-hear.md` · `blocks/` |
 
 ## For the CEO update (collect, send once)
 
@@ -356,6 +357,8 @@ Built from approved card versions + the dictionary. **Postgres, no separate grap
 ## 5. Pipeline ✅
 
 Drafted by Claude (fast mode), accepted by Karthi 24 Sep 2026.
+
+> **Detailed block designs:** `docs/blocks/` (planned lane by lane from 25 Sep; newer block pages win where they differ from this chapter).
 
 ### 5.1 Blocks after the rethink: 28
 

@@ -73,6 +73,7 @@ Operating-room video shows **what** the surgeon did. We also capture **why** (OR
 | `docs/MASTER_PLAN.md` | The master plan (13 chapters) — source of truth |
 | `docs/CEO_Explanation.md` | Plan explained for the CEO (no costs) |
 | `docs/NEXT_STEPS.md` | Ordered to-do list |
+| `docs/blocks/` | Detailed design of each block, planned lane by lane (status table in its README) |
 | `docs/decisions/` | One file per decision (topic · options · choice · reason · decided by) |
 | `docs/research/` | Research notes (e.g. parked Procedural Graphs paper) |
 | `docs/PLAN_v2.md` · `docs/history/` | ⚠ History only — superseded plan and old briefing |

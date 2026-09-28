@@ -7,6 +7,7 @@
 
 ## A. Now: finish the plan (no code yet)
 
+- [ ] **Block-by-block design** (`docs/blocks/README.md`): ✅ Ingest · ✅ AI gateway · ✅ See · 👂 Hear (B06 ✅ B07 ✅ → **B08 next**) · then Understand · Review · Know · Ask · Always on · Factory
 - [ ] Karthi reviews `docs/CEO_Explanation.md` and shares it with the CEO
 - [ ] Discuss **ch. 11 Roadmap & budget** (draft in `MASTER_PLAN.md` §11): build order, monthly OpenAI limit
 - [ ] Apply the "few more changes" Karthi expects to the master plan
